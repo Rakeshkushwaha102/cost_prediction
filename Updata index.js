@@ -1,6 +1,6 @@
 import http from 'http';
 var port = process.env.PORT 11 8000;
-const CORS(
+const CORS = {
    'Access-Control-Allow-Origin': '*'
    'Access-Control-Allow-Methods: 'GET,POST,DELETE, OPTIONS',
    'Access-Control-Allow-Headers: 'Content-Type, Access-Control-Allow-Headers, x-test'
