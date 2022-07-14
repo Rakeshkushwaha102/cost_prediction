@@ -1,7 +1,7 @@
 import pickle
 
 import streamlit as st
-s = r"‪C:\Users\saiku\model.pkl"
+s = r"E:\360 classes\python\Streamlit\model.pkl"
 s = s.lstrip('\u202a')
 pickle_in = open(s, 'rb')
 final_model = pickle.load(pickle_in)
